@@ -1,0 +1,23 @@
+.trades {
+  padding: 20px;
+  display: flex;
+
+  &__trade-list {
+    border: 1px solid lightgray;
+    padding: 14px;
+    display: block;
+    margin-right: 20px;
+    line-height: 1.5;
+  }
+}
+
+.back-btn {
+  margin-left: 20px;
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+  background:linear-gradient(186deg, rgba(0, 242, 255, 1) 0%, rgba(10, 227, 255, 1) 29%, rgba(53, 52, 211, 1) 98%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+}

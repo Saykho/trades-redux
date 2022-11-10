@@ -1,0 +1,48 @@
+.select-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  &__cars, &__users {
+    width: 160px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  &__cars:focus {
+    outline: none;
+    border: 2px solid rebeccapurple;
+  }
+
+  &__users:focus {
+    outline: none;
+    border: 2px solid rebeccapurple;
+  }
+
+  &__coast {
+    width: 150px;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__make-btn {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #00064e, #2b1d70, #4f3594, #744fba, #9a6ae0);
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+
+  &__go-btn {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #0af00c, #00ee8c, #00e7d1, #00daf6, #20c9f9);
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+}
